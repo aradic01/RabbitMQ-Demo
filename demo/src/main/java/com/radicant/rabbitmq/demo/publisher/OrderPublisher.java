@@ -6,7 +6,6 @@ import com.radicant.rabbitmq.demo.dto.OrderStatus;
 import com.radicant.rabbitmq.demo.dto.enums.StatusType;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.core.env.Environment;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
